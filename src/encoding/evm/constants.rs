@@ -37,9 +37,10 @@ pub static FUNDS_IN_ROUTER_PROTOCOLS: LazyLock<HashSet<&'static str>> = LazyLock
     set.insert("vm:curve");
     set.insert("rfq:bebop");
     set.insert("rfq:hashflow");
+    set.insert("rfq:liquorice");
     set.insert("rocketpool");
     set.insert("erc4626");
-    set.insert("lido");
+    set.insert("etherfi");
     set
 });
 

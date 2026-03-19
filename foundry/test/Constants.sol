@@ -156,6 +156,11 @@ contract Constants is Test, BaseConstants {
     // Hashflow Router
     address HASHFLOW_ROUTER = 0x55084eE0fEf03f14a305cd24286359A35D735151;
 
+    // Liquorice Settlement
+    address LIQUORICE_SETTLEMENT = 0x0448633eb8B0A42EfED924C42069E0DcF08fb552;
+    address LIQUORICE_BALANCE_MANAGER =
+        0xb87bAE43a665EB5943A5642F81B26666bC9E5C95;
+
     // Pool Code Init Hashes
     bytes32 USV2_POOL_CODE_INIT_HASH =
         0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f;
@@ -177,8 +182,21 @@ contract Constants is Test, BaseConstants {
     // Fluid liquidity contract on mainnet
     address FLUIDV1_LIQUIDITY = 0x52Aa899454998Be5b000Ad077a46Bbe360F4e497;
 
+    // Rocketpool v1.4 (Saturn 1) deposit pool
+    address ROCKET_DEPOSIT_POOL = 0xCE15294273CFb9D9b628F4D61636623decDF4fdC;
+
     // Angstrom hook address
     address ANGSTROM_HOOK = 0x0000000aa232009084Bd71A5797d089AA4Edfad4;
+
+    // Etherfi address
+    address constant EETH_ADDR =
+        address(0x35fA164735182de50811E8e2E824cFb9B6118ac2);
+    address constant WEETH_ADDR =
+        address(0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee);
+    address constant LIQUIDITY_POOL_ADDR =
+        address(0x308861A430be4cce5502d0A12724771Fc6DaF216);
+    address constant REDEMPTION_MANAGER_ADDR =
+        address(0xDadEf1fFBFeaAB4f68A9fD181395F68b4e4E7Ae0);
 
     /**
      * @dev Deploys a dummy contract with non-empty bytecode

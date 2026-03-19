@@ -1,3 +1,122 @@
+## [0.165.1](https://github.com/propeller-heads/tycho-execution/compare/0.165.0...0.165.1) (2026-03-11)
+
+
+### Bug Fixes
+
+* Fix cargo audit ([bce8e56](https://github.com/propeller-heads/tycho-execution/commit/bce8e5644a25fce2496eab088783f47e51ce9021))
+
+## [0.165.0](https://github.com/propeller-heads/tycho-execution/compare/0.164.0...0.165.0) (2026-03-04)
+
+
+### Features
+
+* deploy and set rocketpool's new executor ([3f90928](https://github.com/propeller-heads/tycho-execution/commit/3f90928978ef8fe4ac8ac0f96cd92774cb20b31a))
+* update rocketpool executor and tests for Saturn v1.4 ([860aea0](https://github.com/propeller-heads/tycho-execution/commit/860aea0c80cadb2aafeed29d0456c19002519058))
+* update RocketpoolExecutor deployment and tests to accept deposit pool address ([c1e8a35](https://github.com/propeller-heads/tycho-execution/commit/c1e8a353a185d0899bc9bb769b70397139884557))
+* update RocketpoolExecutor to Saturn v4 deposit pool address ([a8a3838](https://github.com/propeller-heads/tycho-execution/commit/a8a383829c91b416545f070430cb6b80c180f0b0))
+
+## [0.164.0](https://github.com/propeller-heads/tycho-execution/compare/0.163.1...0.164.0) (2026-03-03)
+
+
+### Features
+
+* make UserTransferType serde ([45acf80](https://github.com/propeller-heads/tycho-execution/commit/45acf8084e6cdc2369877e82eb4fd994d90cf38a))
+
+## [0.163.1](https://github.com/propeller-heads/tycho-execution/compare/0.163.0...0.163.1) (2026-03-03)
+
+
+### Bug Fixes
+
+* Use PR author instead of merged_by for release author ([46e2f98](https://github.com/propeller-heads/tycho-execution/commit/46e2f98cd8c008d1b8ed88306d34f05dfb0462bc))
+
+## [0.163.0](https://github.com/propeller-heads/tycho-execution/compare/0.162.0...0.163.0) (2026-03-03)
+
+
+### Features
+
+* capitalize README heading ([eec0337](https://github.com/propeller-heads/tycho-execution/commit/eec033788e3348cf5110c3210d471a70de78ddc2))
+
+## [0.162.0](https://github.com/propeller-heads/tycho-execution/compare/0.161.0...0.162.0) (2026-03-02)
+
+
+### Features
+
+* add cargo audit pipeline ([1615769](https://github.com/propeller-heads/tycho-execution/commit/1615769716a472b186c895034989e0f28d7efc0d))
+
+
+### Bug Fixes
+
+* fix dependency versions without vulnerabilities ([4a31af7](https://github.com/propeller-heads/tycho-execution/commit/4a31af707ea66e298ecae457c68d2999455c0359))
+* remove unused dependencies ([28b2474](https://github.com/propeller-heads/tycho-execution/commit/28b2474143caf8f12f988577d90b13d0b8718dd6))
+
+## [0.161.0](https://github.com/propeller-heads/tycho-execution/compare/0.160.0...0.161.0) (2026-02-24)
+
+
+### Features
+
+* remove lido ([7fcd52b](https://github.com/propeller-heads/tycho-execution/commit/7fcd52b062fc7331ab01cf13f42e17c344844efe))
+* remove lido import ([4970c64](https://github.com/propeller-heads/tycho-execution/commit/4970c64138d1b3fcaf820224584e20b5de378be7))
+* update calldata ([c0048ca](https://github.com/propeller-heads/tycho-execution/commit/c0048ca343b2eefdc81816d2aa0a4ffeb451809e))
+* update executor addresses ([1f25382](https://github.com/propeller-heads/tycho-execution/commit/1f253824af73fc6c0008210d13e734c4eac0b016))
+
+
+### Bug Fixes
+
+* update number of executors ([f1bdee8](https://github.com/propeller-heads/tycho-execution/commit/f1bdee81e26ca960803773690efac0a4ba2fcbf8))
+
+## [0.160.0](https://github.com/propeller-heads/tycho-execution/compare/0.159.0...0.160.0) (2026-02-19)
+
+
+### Features
+
+* update tycho dependency to 0.143.0 ([8e55735](https://github.com/propeller-heads/tycho-execution/commit/8e557351ea66cefb495980e6ac36d61c70c0d960))
+
+
+### Bug Fixes
+
+* adapt MockRFQState to typetag-based ProtocolSim trait ([430adc3](https://github.com/propeller-heads/tycho-execution/commit/430adc3095d88f1602f97c2839b74a21737e4942))
+
+## [0.159.0](https://github.com/propeller-heads/tycho-execution/compare/0.158.0...0.159.0) (2026-02-11)
+
+
+### Features
+
+* add Etherfi config and make executor addresses configurable ([31dd95d](https://github.com/propeller-heads/tycho-execution/commit/31dd95d3c35e9bd229bac589b4ee1a7c7943bafe))
+
+
+### Bug Fixes
+
+* add slither comment ([8177c26](https://github.com/propeller-heads/tycho-execution/commit/8177c2658edd75febf731441464de9c91f95b0fb))
+* add test constants and config for EtherFi swap encoder ([dfaa6dd](https://github.com/propeller-heads/tycho-execution/commit/dfaa6ddcc8a126bd00e52b535eda16d6ab2d47b6))
+* cap eETH redeem amount to avoid share-based rounding dust ([663086a](https://github.com/propeller-heads/tycho-execution/commit/663086a10886888ce5df8768638afded1a64a44f))
+* update EtherFi executor address in test config and calldata ([fed1739](https://github.com/propeller-heads/tycho-execution/commit/fed1739d8be5bf8527b116e3ec3f5f3f210a2f32))
+
+## [0.158.0](https://github.com/propeller-heads/tycho-execution/compare/0.157.0...0.158.0) (2026-02-10)
+
+
+### Features
+
+* dummy commit to trigger CI ([624d26a](https://github.com/propeller-heads/tycho-execution/commit/624d26afc8724c9fb2c11cb8f5ca906670855dd1))
+
+
+### Bug Fixes
+
+* **sdk notify:** Wait for cargo release, not just github publish ([f2f73a9](https://github.com/propeller-heads/tycho-execution/commit/f2f73a9488e4b9fa432d1a82074357062c572a74))
+
+## [0.157.0](https://github.com/propeller-heads/tycho-execution/compare/0.156.0...0.157.0) (2026-02-06)
+
+
+### Features
+
+* Dummy commit to test SDK repo notification ([7862f96](https://github.com/propeller-heads/tycho-execution/commit/7862f96aff62795136a3877737eef327ca9e956a))
+
+## [0.156.0](https://github.com/propeller-heads/tycho-execution/compare/0.155.0...0.156.0) (2026-02-06)
+
+
+### Features
+
+* Notify SDK repo on new releases ([9fb06d2](https://github.com/propeller-heads/tycho-execution/commit/9fb06d209bb748752d61fc915f0bfbad166408b8))
+
 ## [0.155.0](https://github.com/propeller-heads/tycho-execution/compare/0.154.3...0.155.0) (2026-01-30)
 
 
